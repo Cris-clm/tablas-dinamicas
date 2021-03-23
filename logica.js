@@ -29,7 +29,7 @@ function Borrar() {
 
     alert("usted esta apunto de borrar los últimos Registros")
 
-    tr.removeChild(tr.td)
-    
+    let varBorrar = document.getElementById('row')
+    row.remove ();
 
 }
