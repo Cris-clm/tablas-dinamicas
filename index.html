@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="logica.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<div class="divCiudad">
+    <label class="lavel">Ciudad</label>
+    <input class="input"  id="ciudad" type="text">
+</div>
+<div class="divHabitantes">
+    <label class="lavel">Habitantes</label>
+    <input class="input" id="habitantes" type="number">
+   
+</div>
+<div class="divContinente">
+    <label class="lavel">Continente</label>
+    <input class="input" id="continente"type="text">
+</div>
+
+<div class="boton">
+    <button class="botonEnviar" id="botonEnviar" onclick="Enviar()"> Ingresar Información</button>
+    <button class="botonBorrar" id="botonBorrar" onclick="Borrar()"> Borrar Información</button>
+</div>
+
+    <table class = "table" border="2px">
+        <thead class="head" id="cabecera">
+            <div>
+            <tr>
+                <th>Ciudad</th>
+                <th>habitantes</th>
+                <th>continente</th>
+            </tr>
+        </div>
+        </thead>
+        <tbody >
+
+        </tbody>
+    </table>
+</body>
+</html>
